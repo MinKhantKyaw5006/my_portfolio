@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "case-sensitive-paths-webpack-plugin": "^2.4.0",
     "sass": "^1.89.2"
   }
 }
