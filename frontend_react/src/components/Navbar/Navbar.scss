@@ -13,21 +13,44 @@
     z-index: 2;
 }
 
-.app__navbar-logo{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+// .app__navbar-logo{
+//     display: flex;
+//     justify-content: flex-start;
+//     align-items: center;
 
-    img{
-        width: 70px;
-        height: 20px;
+//     img{
+//         width: 70px;
+//         height: 20px;
 
-        @media screen and (min-width: 2000px){
-            width: 180px;
-            height: 40px;
-        }
+//         @media screen and (min-width: 2000px){
+//             width: 180px;
+//             height: 40px;
+//         }
+//     }
+// }
+
+.app__navbar-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  .logo1 {
+    width: 70px;
+    height: 20px;
+
+    @media screen and (min-width: 2000px) {
+      width: 180px;
+      height: 40px;
     }
+  }
+
+  .logo2 {
+    width: auto;    // or any size you want
+    height: 30px;   // different height to keep aspect ratio
+    margin-left: 10px;  // add spacing between logos
+  }
 }
+
 
 .app__navbar-links{
     flex: 1;

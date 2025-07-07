@@ -177,7 +177,9 @@
   img {
     width: 100%;
     object-fit: contain;
+    border-radius: 50%; // <-- add this to make circle
     z-index: 1;
+    transform: translateY(-24px);
   }
 
   .overlay_circle {
