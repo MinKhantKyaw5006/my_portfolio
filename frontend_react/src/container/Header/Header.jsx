@@ -1,5 +1,6 @@
 import React from 'react'
-import { motion, scale } from 'framer-motion';
+import { motion } from 'framer-motion';
+import AppWrap from '../../Wrapper/AppWrap';
 import { images } from '../../constants';
 import './Header.scss';
 const scaleVariants = {
@@ -24,7 +25,7 @@ const Header = () => (
           <span>👋</span>
           <div style={{ marginLeft: 20 }}>
             <p className="p-text">Hello, I am</p>
-            <h1 className="head-text">Micael</h1>
+            <h1 className="head-text">Min Khant Kyaw</h1>
           </div>
         </div>
 
@@ -65,4 +66,4 @@ const Header = () => (
 );
 
 
-export default Header
+export default AppWrap(Header,'home');
